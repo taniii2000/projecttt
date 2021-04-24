@@ -1,0 +1,775 @@
+*{
+box-sizing: border-box;
+}
+#wrapper{
+    width:100%;
+    margin:auto;
+    background-color:#f0f0f0;
+    border:2px solid black;
+    box-shadow: 3px 4px;
+    overflow:hidden;
+    
+}
+
+header{
+    text-align: center;
+    overflow:hidden;
+}
+header img{
+    float:left;
+    background-color: black;
+    margin:1px;
+}
+
+
+nav{
+    width:100%;
+   text-align:center;
+     height:60px;
+     overflow:hidden;
+    background-color:rgba(43,101,181,1);
+}
+nav ul li{
+     width: 149px;
+    box-sizing: border-box;
+    overflow: visible;
+    list-style-type: none;
+    display: inline;
+    
+    
+}
+li .a{
+    padding:55px;
+    color:white;
+    text-decoration: none;
+    font-size:1.4em;
+    font-weight: bold;
+    text-align:center;
+}
+
+li .a:hover{
+    color: #000;
+    font-size:1.5em;
+
+}
+.container1{
+    width:100%;
+    overflow:hidden;
+   margin-top:10px;
+    
+}
+img{
+    padding:5px;
+    padding-top:10px;
+    padding-bottom:7px;
+}
+#row1{
+    width:564px;
+    float: left;
+    height:420px;
+   display:block;
+}
+#row2{
+    width:47%;
+    float:right;
+    display:block;
+}
+h2{
+    text-align: center;
+    height:auto;
+    width:95%;
+    position:relative;
+    color:white;
+    background-color:rgba(43,101,181,1);
+    padding-left:1.3em;
+    padding-right:0;
+    margin-right:0;
+    line-height: normal;
+    margin-left:0.5em;
+    letter-spacing: normal;
+}
+
+p{
+    line-height: 1.3em;
+    margin:5px;
+    margin-left:8px;
+    padding-bottom:10px;
+}
+.container{
+    
+    margin-left:25px;
+    clear:both;
+     width:95%;
+    overflow:hidden;
+     box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.6);
+}
+#r{
+    width:100%;
+    padding:10px;
+}
+
+.pg1{
+    font-size:1.5em;
+    font-weight:bold;
+    color:black;
+    text-align: center;
+    padding:10px;
+}
+
+#r1{
+    text-align: center;
+    width:29%;
+   float:left;
+    
+}
+#r2{
+    text-align: center;
+    width:42%;
+    margin:0 auto;
+   display:inline-block;
+    
+
+}
+#r3{
+    text-align: center;
+    width:29%;
+    float:right;
+   
+}
+#btn1{
+     width:90%;
+    padding:5px;
+    margin:4px;
+    margin-left: 17px;
+    text-align:center;
+    height:55px;
+    min-height:20px;
+    font-size:1.5em;
+    background-color:rgba(43,101,181,1);
+    box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.6);
+    display:inline-block;
+    font-weight:bolder;
+    color:white;
+}
+#btn2{
+     width:90%;
+    padding:5px;
+    margin:4px;
+    margin-left: 17px;
+    text-align:center;
+    height:55px;
+    min-height:20px;
+    font-size:1.5em;
+    background-color:rgba(10,190,255,1);
+    box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.3);
+    display:inline-block;
+    font-weight:bolder;
+    color:white;
+    
+}
+#btn3{
+     width:90%;
+    padding:5px;
+    margin:4px;
+    margin-left: 17px;
+    text-align:center;
+    height:55px;
+    min-height:20px;
+    font-size:1.5em;
+    background-color:rgba(136,194,37,1);
+    box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.3);
+    display:inline-block;
+    font-weight:bolder;
+    color:white;
+    
+}
+.container2{
+    width:100%;
+    overflow:hidden;
+   
+}
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+   
+}
+tr:nth-of-type(odd) { 
+    background: white; 
+}
+th { 
+    background: #333; 
+    color: white; 
+    font-weight: bold; 
+}
+td, th {
+    padding: 6px; 
+    border: 1px solid #ccc; 
+    text-align: center 
+}
+
+
+#row4{
+   
+    border:2px solid black;
+}
+#para{
+    font-size:2em;
+    text-align:center;
+    font-weight:bolder;
+    font-family: Verdana sans-serif;
+}
+#pp{
+    text-align:center;
+    font-size:2em;
+    font-weight:bolder;
+}
+#paragraph{
+    font-size:1.1em;
+    padding:5px;
+}
+.p1{
+    color:white;
+    padding-top:8px;
+    font-size:1.2em;
+}
+#f1{
+    margin-left:133px;
+    
+}
+.frm1{ margin-top: 10px;
+    display: block;   
+}
+#Submit{ margin-top: 10px;
+    display: block; 
+    
+}
+
+/* css for courses.html*/
+
+#row5 {
+    
+    background-size: 100%;
+    padding-left:20px;
+}
+.p2{
+    padding-top:15px;
+    padding-bottom:8px;
+    font-size:1.5em;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: underline;
+}
+ol{
+    padding-bottom:4px;
+    list-style-type: none;
+   text-align: center;
+}
+ol li{
+    padding-bottom:12px;
+    color:black;
+    
+}
+ol li a{
+    font-size:1em;
+    color:black;
+    text-decoration:none;
+    
+}
+li a:hover{
+    font-size:1.2em;
+    background-color:#0001;
+}
+#row6{
+    padding-top:5px;
+    width:20%;
+    float: left;
+    overflow:hidden;
+}
+#row7{
+    width:78%;
+    float:right;
+    padding:5px;
+}
+#p3{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bolder;
+    
+}
+/* css for contact.html*/
+
+#row8{
+    width:40%;
+    float:left;
+    padding-left:20px;
+     padding-bottom:20px;
+    
+    
+}
+fieldset{
+    margin-left:15px;
+}
+form { 
+    font-family: Arial, sans-serif;
+    padding: 8px;
+   
+} 
+label{
+    float: left;
+    width: 100px;
+    clear: left;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px; 
+    font-weight: 200;
+}
+.frm{ 
+    margin-top: 10px;
+    display: block; 
+}
+#mySubmit { 
+    margin-left: 110px;
+    margin-top:5px;
+}
+#row9{
+    float:right;
+    width:60%;
+    text-align: center;
+}
+legend{
+    font-size:1.3em;
+    font-weight:bold;
+}
+#p4{
+    font-size: 2em;
+    font-weight: bold;
+    
+}
+#p5{
+    font-size:1.5em;
+    
+}
+#p6{
+     text-align: center;
+    margin-bottom:20px;
+    font-size: 2em;
+    font-weight: bolder;
+    text-decoration: underline;
+    
+}
+
+/* css for footer*/
+footer{
+    margin-top:14px;
+    overflow:hidden;
+    font-style:italic;
+    font-weight: bold;
+    height:110px;
+    padding:2px 0px 9px 0px;
+    display: block;
+     background-color:rgba(43,101,181,1);
+    
+    
+}
+
+span{
+    color:white;
+}
+#foot{
+    font-size:1em;
+    text-align:center;
+    font-style: italic;
+    
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10%;
+    width: 20px;
+    height:5px;
+    margin-top: 3px;
+    display:block;
+}
+#sign{
+    float:right;
+    padding-bottom: 15px;
+    font-size:1.3em;
+    margin-right: 4px;
+    margin-bottom:5px;
+    display:inline-block;
+}
+.fa:hover {
+  opacity: 0.7;
+    
+}
+.fa-facebook {
+ 
+  color: white;
+    padding:5px;
+    margin:6px;
+    padding-bottom:20px;
+
+}
+
+.fa-twitter {
+  
+    padding:1px;
+    margin-bottom:6px;
+  color: white;
+    padding-bottom:20px;
+    
+}
+.fa-instagram{
+    padding-left:7px;
+    padding:5px;
+    margin-bottom:6px;
+    margin-right:6px;
+    color: white;
+    padding-bottom:20px;
+    
+}
+#mobile { display: none; }
+#desktop { display: inline; }
+
+@media only screen and (max-device-width: 1024px)  {
+     body{
+        background-image: none;
+         margin:0;
+      
+    }
+    #wrapper{
+        width:auto;
+        min-width: 0;
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+    }
+    header{
+        margin:0;
+        padding:0;
+        height:auto;
+    }
+    h1{
+        margin-top: 0;
+        padding-top:20px;
+       
+       
+    }
+    main{
+        padding:0;
+        margin:0;
+        
+    }
+    nav
+    {
+        float:none;
+        width:auto;
+        height:172px;
+        padding-top: 0;
+        margin:10px;
+        font-size: 1.3em;
+    }
+    nav li{
+       text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+    }
+    nav .a{
+        padding: 0.2em;
+        width:100%;
+        display:block;
+        font-weight: bold;
+        border-style: none;
+    }
+    nav ul
+    {   display:inline-block;
+        padding:0;
+        position:relative;
+        margin:0;
+    }
+  
+    main{
+        padding: 0;
+        margin:0;
+        font-size: 90%;
+    }
+    #r{
+        width:100%;
+        margin:0;
+        padding:0;
+    }
+    #r1{
+        width:100%;
+        margin:0;
+        padding:0;
+        clear:left;
+        float:none;
+    }
+    #r2{
+        width:100%;
+        margin:0;
+        padding:0;
+        
+    }
+    #r3{
+        width:100%;
+        margin:0;
+        padding:0;
+        clear:right;
+        float:none;
+    }
+    #row1{
+        margin:0;
+        padding:0;
+        width:auto;
+    }
+     #row2{
+        margin:0;
+        padding:0;
+        width:100%;
+    }
+     #row3{
+        margin:0;
+        padding:0;
+        width:auto;
+    }
+     #row4{
+        margin:0;
+        padding:0;
+        width:auto;
+    }
+     #row5{
+        margin:0;
+        padding:0;
+        width:auto;
+         
+    }
+     #row6{
+        margin:0;
+        padding:0;
+        width:auto;
+    }
+     #row7{
+        margin:0;
+        padding:0;
+        width:100%;
+    }
+     #row8{
+        margin:0;
+        padding:0;
+        width:100%;
+        
+    }
+     #row9{
+        margin:0;
+        padding:0;
+        width:100%;
+         display:inline-block;
+         clear:right;
+         float:none;
+    }
+    
+    #row5 img{
+        margin:0;
+        padding:0;
+        width:100%;
+        height:auto;
+        
+        
+    }
+    #row1 img{margin:0;
+        padding:0;
+        width:100%;
+        height:100%;
+        
+    }
+    #f1{
+        width:100%;
+        margin-left: 407px
+            
+    }
+   
+   
+    
+}
+@media only screen and (max-width: 768px) {
+    
+    h1
+    {
+        margin-top: 0;
+        padding-top:20px;
+    }
+    nav{
+        margin:0;
+        height:244px;
+    }
+    nav .a{
+        
+        text-align: center;
+         padding: 0.2em;
+        width:100%;
+        display:block;
+       
+       
+    }
+    nav ul li{
+       text-align: center;
+        display:inline-block;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+        
+    }
+   
+    main{
+        padding-top: 1px;
+    }
+    #f1{
+        margin-left: 289px
+    }
+    h2{
+        padding-top:0.5em;
+        padding-right:0;
+        padding-bottom: 0;
+        padding-left: 0.5em;
+    }
+    #r{
+        width:100%;
+        margin:0;
+        padding:0;
+    }
+    #r1{
+        width:100%;
+        margin:0;
+        padding:0;
+        clear:left;
+        float:none;
+    }
+    #r2{
+        width:100%;
+        margin:0;
+        padding:0;
+        
+    }
+    #r3{
+        width:100%;
+        margin:0;
+        padding:0;
+        clear:right;
+        float:none;
+    }
+    #row1{
+        margin:0;
+        padding:0;
+        width:auto;
+    }
+     #row2{
+        margin:0;
+        padding:0;
+        width:auto;
+    }
+     #row3{
+        margin:0;
+        padding:0;
+        width:auto;
+    }
+     #row4{
+        margin:0;
+        padding:0;
+        width:auto;
+    }
+     #row5{
+        margin:0;
+        padding:0;
+        width:auto;
+         
+    }
+     #row6{
+        margin:0;
+        padding:0;
+        width:auto;
+    }
+     #row7{
+        margin:0;
+        padding:0;
+        width:100%;
+    }
+     #row8{
+        margin:0;
+        padding:0;
+        width:100%;
+        
+    }
+     #row9{
+        margin:0;
+        padding:0;
+        width:100%;
+         display:inline-block;
+         clear:right;
+         float:none;
+    }
+    
+    #row5 img{
+        margin:0;
+        padding:0;
+        width:100%;
+        height:auto;
+        
+        
+    }
+    #row1 img{margin:0;
+        padding:0;
+        width:100%;
+        height:100%;
+        
+    }
+    table, thead, tbody, th, td, tr {
+        display: block; 
+    }
+    thead tr { 
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    tr {
+        border: 1px solid #ccc;
+    }
+    td {
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+    }
+    td:before {
+        position: absolute;
+       top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+    .td1:nth-of-type(1):before {content: "Date"; }
+    .td1:nth-of-type(2):before { content: "Upcoming Events"; }
+    .td1:nth-of-type(3):before { content: "Campus"; }
+    .td1:nth-of-type(4):before { content: "Timings"; }
+    .td1:nth-of-type(5):before { content: "Coordinator"; }
+    .td1:nth-of-type(6):before { content: "Contact Info."; }
+    
+    .td2:nth-of-type(1):before {content: "S. No."; }
+    .td2:nth-of-type(2):before {content: "Program Title"; }
+    .td2:nth-of-type(3):before {content: "Length"; }
+    .td2:nth-of-type(4):before {content: "Credentials"; }
+    .td2:nth-of-type(5):before {content: "Accelerated"; }
+    .td2:nth-of-type(6):before {content: "Campus"; }
+    #mobile 
+    { 
+        display: inline;
+    }
+#desktop
+    {
+    display: none;
+    }
+}
